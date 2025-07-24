@@ -40,6 +40,12 @@ import { FormaPagamentoReadComponent } from './components/formaPagamento/forma-p
 import { FormaPagamentoCrudComponent } from './views/forma-pagamento-crud/forma-pagamento-crud.component';
 import { FornecedorCrudComponent } from './views/fornecedor-crud/fornecedor-crud.component';
 import { FornecedorCreateComponent } from './components/fornecedor/fornecedor-create/fornecedor-create.component';
+import { FormaPagamentoCreateComponent } from './components/formaPagamento/forma-pagamento-create/forma-pagamento-create.component';
+import { FormaPagamentoDeleteComponent } from './components/formaPagamento/forma-pagamento-delete/forma-pagamento-delete.component';
+import { FormaPagamentoUpdateComponent } from './components/formaPagamento/forma-pagamento-update/forma-pagamento-update.component';
+import { FornecedorReadComponent } from './components/fornecedor/fornecedor-read/fornecedor-read.component';
+import { FornecedorDeleteComponent } from './components/fornecedor/fornecedor-delete/fornecedor-delete.component';
+import { FornecedorUpdateComponent } from './components/fornecedor/fornecedor-update/fornecedor-update.component';
 
 registerLocaleData(localePt)
 
@@ -59,7 +65,13 @@ registerLocaleData(localePt)
     FormaPagamentoReadComponent,
     FormaPagamentoCrudComponent,
     FornecedorCrudComponent,
-    FornecedorCreateComponent
+    FornecedorCreateComponent,
+    FormaPagamentoCreateComponent,
+    FormaPagamentoDeleteComponent,
+    FormaPagamentoUpdateComponent,
+    FornecedorReadComponent,
+    FornecedorDeleteComponent,
+    FornecedorUpdateComponent
   ],
   imports: [
     BrowserModule,
